@@ -1,0 +1,47 @@
+body{
+    background-color: rgb(53, 49, 49);
+    color: lightgray;
+}
+
+nav {
+    display: flex ;
+    flex-direction: row;
+    margin: auto;
+    justify-content: center;
+    justify-content: space-between;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+h1 {
+    display: flex;
+    margin: auto;
+    color: lightgray;
+    justify-content: center;
+    padding-top: 10%;
+}
+
+h2 {
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    padding-top: 10%;
+    padding-bottom: 10%;
+}
+
+h3 {
+    display: flex;
+    float: left;
+}
+
+.about {
+    display: flex;
+ padding-left: 10%;   
+}
+
+a:hover {
+    font-size: larger;
+}
