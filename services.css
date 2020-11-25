@@ -1,0 +1,82 @@
+
+img {
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.jesse {
+    display: flex;
+    flex-direction: row;
+}
+
+h3 {
+    display: flex;
+    flex-direction: row;
+    padding-bottom: 2%;
+    justify-content: space-around;
+    justify-content: center;
+    text-align: center;
+}
+
+p {
+    display: flex;
+    flex-direction: row;
+    margin-top: 6%;
+    padding: 2%
+
+}
+
+footer {
+    background-color: black;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+body{
+    
+    color: lightgray;
+    background-color: rgb(53, 49, 49);
+}
+
+nav {
+    display: flex ;
+    flex-direction: row;
+    margin: auto;
+    justify-content: center;
+    justify-content: space-between;  
+}
+
+h1 {
+    display: flex;
+    margin: auto;
+    color: lightgray;
+    justify-content: center;
+    padding-top: 6%;
+    background-color: rgb(53, 49, 49);
+    padding-bottom: 10%;
+}
+
+h2 {
+    display: flex;
+    margin: auto;
+    color: lightgray;
+    justify-content: center;
+    font-size: medium;
+    padding-top: 6%;
+    background-color: rgb(53, 49, 49);
+}
+
+
+a:visited {
+    color: gray
+}
+
+a:hover {
+    font-size: larger;
+}
+
+a:link {
+    color: honeydew;
+}
