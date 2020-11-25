@@ -51,7 +51,7 @@ a:hover {
 }
 
 footer {
-    background-color: rgb(53, 49, 49);
+    background-color: black;
     display: flex;
     justify-content: space-evenly;
 }

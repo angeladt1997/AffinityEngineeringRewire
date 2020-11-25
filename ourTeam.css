@@ -1,0 +1,101 @@
+
+img {
+    display: flex;
+    border-radius: 50%;
+}
+.marina {
+    display: flex;
+    flex-direction: row-reverse;
+  
+}
+
+.jesse {
+    display: flex;
+    flex-direction: row;
+   
+}
+.natalie {
+    display: flex;
+    flex-direction: row;
+   margin-top: 6%;
+}
+
+
+h3 {
+    display: flex;
+    padding-bottom: 2%;
+}
+
+.jesseName {
+    display: flex;
+    margin-left: 5%;
+}
+
+.marinaName {
+    display: flex;
+    float: right;
+    margin-right: 4%;   
+}
+
+.natalieName {
+    display: flex;
+    margin-left: 4%;
+}
+
+p {
+    display: flex;
+    margin-top: 6%;
+    padding: 2%
+}
+
+footer {
+    background-color: rgb(53, 49, 49);
+    display: flex;
+    justify-content: space-evenly;
+}
+
+body{
+    
+    color: lightgray;
+    background-color: rgb(53, 49, 49);
+}
+
+nav {
+    display: flex ;
+    flex-direction: row;
+    margin: auto;
+    justify-content: center;
+    justify-content: space-between;  
+}
+
+h1 {
+    display: flex;
+    margin: auto;
+    color: lightgray;
+    justify-content: center;
+    padding-top: 6%;
+    background-color: rgb(53, 49, 49);
+}
+
+h2 {
+    display: flex;
+    margin: auto;
+    color: lightgray;
+    justify-content: center;
+    font-size: medium;
+    padding-top: 6%;
+    background-color: rgb(53, 49, 49);
+}
+
+
+a:visited {
+    color: gray
+}
+
+a:hover {
+    font-size: larger;
+}
+
+a:link {
+    color: honeydew;
+}
