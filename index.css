@@ -10,12 +10,12 @@ nav {
     display: flex ;
     flex-direction: row;
     margin: auto;
+    align-items: center;
     justify-content: center;
     justify-content: space-evenly;
+    height: 4em;
     width: 100%;
     background-color: rgb(53, 49, 49);
-    
-   
 }
 
 a {

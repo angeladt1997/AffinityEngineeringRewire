@@ -20,12 +20,12 @@ nav {
     display: flex ;
     flex-direction: row;
     margin: auto;
+    align-items: center;
     justify-content: center;
     justify-content: space-evenly;
+    height: 4em;
     width: 100%;
     background-color: rgb(53, 49, 49);
-    
-   
 }
 
 a:visited {
@@ -45,9 +45,9 @@ h1 {
     margin: auto;
     color: lightgray;
     justify-content: center;
-    padding-top: 4%;
+    padding-top: 2%;
     background-color: rgb(53, 49, 49);
-    padding-bottom: 5%;
+   
 }
 
 h3 {
@@ -61,7 +61,7 @@ footer {
     display: flex;
     justify-content: space-evenly;
     width: 100%;
-    flex-direction: column;
+    flex-direction: row;
 }
 
 input {
@@ -88,14 +88,18 @@ button {
 
 .bottomText {
     display: flex;
-    background-color: black;
+    background-color: rgb(53, 49, 49);
     flex-direction: row;
     text-align: center;
+    color: blanchedalmond;
 }
 
 .siteDisclaimer {
     display: flex;
     font-size: x-small;
     text-align: center;
+    background-color: rgb(53, 49, 49);
+    color: blanchedalmond;
+    text-align: right;
     
 }
