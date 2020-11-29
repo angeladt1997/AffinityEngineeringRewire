@@ -10,3 +10,5 @@ to process donations.
 
 If you so happen to stop by this repository and have questions about my process or progress, feel free
 to email me at: angeladthomas97@gmail.com!
+
+You can find the deployed site at: https://affinity-engineering-rewire.vercel.app/
