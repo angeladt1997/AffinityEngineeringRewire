@@ -103,3 +103,25 @@ button {
     text-decoration: none;
     
 } 
+
+@media only screen and (max-width:  400px) {
+    h1 {
+        font-size: medium;
+    }
+
+    footer {
+        display: none;
+    }
+
+    nav {
+        display: flex;
+        justify-content: space-evenly;
+    }
+    
+    .bottomText {
+        display: none;
+    }
+    .siteDisclaimer {
+        text-align: center;
+    }
+} 
