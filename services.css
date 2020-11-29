@@ -36,8 +36,9 @@ footer {
 
 body{
     
-    color: lightgray;
-    background-color: rgb(53, 49, 49);
+    
+    margin: 0;
+   
 }
 
 nav {
@@ -45,7 +46,9 @@ nav {
     flex-direction: row;
     margin: auto;
     justify-content: center;
-    justify-content: space-between;  
+    justify-content: space-evenly;
+    width: 100%;
+    background-color: rgb(53, 49, 49);  
 }
 
 h1 {

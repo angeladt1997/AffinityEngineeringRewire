@@ -1,7 +1,7 @@
 body{
     
-    color: lightgray;
-    background-color: rgb(53, 49, 49);
+    margin: 0;
+   
 }
 
 nav {
@@ -9,7 +9,10 @@ nav {
     flex-direction: row;
     margin: auto;
     justify-content: center;
-    justify-content: space-between;
+    justify-content: space-evenly;
+    width: 100%;
+    background-color: rgb(53, 49, 49);
+    
    
 }
 
@@ -30,6 +33,7 @@ footer {
     background-color: black;
     display: flex;
     justify-content: space-evenly;
+    color: blanchedalmond;
 }
 
 h1 {
@@ -49,4 +53,26 @@ h1 {
     background-color: white;  
     padding:  8%;
     margin-right: 0%;
+}
+
+h2 {
+    display: flex;
+    margin: auto;
+    justify-content: center;
+}
+
+
+
+.decsriptionHeader {
+    color: black;
+}
+
+.jobListing {
+    display: flex;
+}
+
+button {
+    margin-left: 4%;
+    width: 6em;
+    height: 2em;
 }

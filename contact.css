@@ -11,8 +11,9 @@ form {
 
 body{
     
-    color: lightgray;
-    background-color: rgb(53, 49, 49);
+    
+    margin: 0;
+   
 }
 
 nav {
@@ -20,7 +21,10 @@ nav {
     flex-direction: row;
     margin: auto;
     justify-content: center;
-    justify-content: space-between;
+    justify-content: space-evenly;
+    width: 100%;
+    background-color: rgb(53, 49, 49);
+    
    
 }
 
@@ -43,7 +47,7 @@ h1 {
     justify-content: center;
     padding-top: 4%;
     background-color: rgb(53, 49, 49);
-    padding-bottom: 5%%;
+    padding-bottom: 5%;
 }
 
 h3 {
@@ -56,6 +60,8 @@ footer {
     background-color: black;
     display: flex;
     justify-content: space-evenly;
+    width: 100%;
+    flex-direction: column;
 }
 
 input {
@@ -70,8 +76,26 @@ input {
 button {
     display: flex;
     width: 25%;
+    height: 4em;
+    width: 8em;
     justify-content: center;
     text-align: center;
     margin: auto;
-    margin-top: 4%;
+    margin-top: 6%;
+    padding-top: 5%;
+    font-size: large;
+}
+
+.bottomText {
+    display: flex;
+    background-color: black;
+    flex-direction: row;
+    text-align: center;
+}
+
+.siteDisclaimer {
+    display: flex;
+    font-size: x-small;
+    text-align: center;
+    
 }
