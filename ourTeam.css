@@ -109,3 +109,21 @@ a:hover {
 a:link {
     color: honeydew;
 }
+
+.bottomText {
+    display: flex;
+    background-color: rgb(53, 49, 49);
+    flex-direction: row;
+    text-align: center;
+    color: blanchedalmond;
+}
+
+.siteDisclaimer {
+    display: flex;
+    font-size: x-small;
+    text-align: center;
+    background-color: rgb(53, 49, 49);
+    color: blanchedalmond;
+    text-align: right;
+    
+}
