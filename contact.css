@@ -104,6 +104,11 @@ button {
     
 }
 
+h6 {
+    color: blanchedalmond;
+}
+
+
 
 @media only screen and (max-width:  400px) {
     h1 {
