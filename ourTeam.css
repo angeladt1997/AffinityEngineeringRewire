@@ -14,20 +14,20 @@ img {
     display: flex;
     flex-direction: row;
     color: black;
-    margin-top: 2%;
+    margin-top: 4%;
    
 }
 .natalie {
     display: flex;
     flex-direction: row;
-   margin-top: 6%;
+   margin-top: 3%;
    color: black;
 }
 
 
 h3 {
     display: flex;
-    padding-bottom: 2%;
+    padding-bottom: 1%;
 }
 
 .jesseName {
@@ -51,7 +51,7 @@ h3 {
 
 p {
     display: flex;
-    margin-top: 6%;
+    margin-top: 4%;
     padding: 2%
 }
 
